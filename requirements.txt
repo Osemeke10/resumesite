@@ -1,5 +1,7 @@
+altair==4.1.0
 argon2-cffi==20.1.0
 asgiref==3.4.1
+astor==0.8.1
 astroid==2.5.6
 async-generator==1.10
 atomicwrites==1.4.0
@@ -8,8 +10,11 @@ Automat==20.2.0
 autopep8==1.5.7
 backcall==0.2.0
 backports.entry-points-selectable==1.1.0
+base58==2.1.0
 beautifulsoup4==4.9.3
 bleach==3.3.1
+blinker==1.4
+cachetools==4.2.2
 certifi==2021.5.30
 cffi==1.14.6
 chardet==4.0.0
@@ -39,6 +44,8 @@ filelock==3.0.12
 fitz==0.0.1.dev2
 future==0.18.2
 gcloud==0.18.3
+gitdb==4.0.7
+GitPython==3.1.18
 googleapis-common-protos==1.53.0
 gunicorn==20.1.0
 h5py==3.3.0
@@ -51,6 +58,7 @@ iniconfig==1.1.1
 ipykernel==6.0.2
 ipython==7.25.0
 ipython-genutils==0.2.0
+ipywidgets==7.6.3
 isodate==0.6.0
 isort==5.9.1
 jedi==0.18.0
@@ -59,6 +67,7 @@ jsonschema==3.2.0
 jupyter-client==6.1.12
 jupyter-core==4.7.1
 jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.0.0
 jwcrypto==1.0
 Keras==2.4.3
 kiwisolver==1.3.1
@@ -99,12 +108,14 @@ protobuf==3.17.3
 prov==2.0.0
 psycopg2==2.9.1
 py==1.10.0
+pyarrow==5.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycodestyle==2.7.0
 pycparser==2.20
 pycryptodome==3.10.1
 pycryptodomex==3.10.1
+pydeck==0.6.2
 pydot==1.4.2
 Pygments==2.9.0
 pyjokes==0.6.0
@@ -123,8 +134,8 @@ pytest-cache==1.0
 python-dateutil==2.8.1
 python-jwt==3.3.0
 pytz==2021.1
-# pywin32==301
-# pywinpty==1.1.3
+pywin32==301
+pywinpty==1.1.3
 pyxnat==1.4
 PyYAML==5.4.1
 pyzmq==22.1.0
@@ -138,12 +149,15 @@ selenium==3.141.0
 Send2Trash==1.7.1
 simplejson==3.17.2
 six==1.16.0
+smmap==4.0.0
 soupsieve==2.2.1
 sqlparse==0.4.1
+streamlit==0.87.0
 tensor==0.3.6
 terminado==0.10.1
 testpath==0.5.0
 toml==0.10.2
+toolz==0.11.1
 tornado==6.1
 traitlets==5.0.5
 traits==6.2.0
@@ -151,13 +165,18 @@ translate==3.6.1
 tweepy==3.10.0
 twilio==6.61.0
 Twisted==21.2.0
-# twisted-iocpsupport==1.0.1
+twisted-iocpsupport==1.0.1
+tzdata==2021.1
+tzlocal==3.0
 urllib3==1.26.6
+validators==0.18.2
 virtualenv==20.6.0
 virtualenv-clone==0.5.6
 virtualenvwrapper-win==1.2.6
+watchdog==2.1.4
 wcwidth==0.2.5
 webencodings==0.5.1
 whitenoise==5.3.0
+widgetsnbextension==3.5.1
 wrapt==1.12.1
 zope.interface==5.4.0
