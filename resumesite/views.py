@@ -16,10 +16,14 @@ from django.template.response import TemplateResponse
 	# if request.method =='POST':
 
 def home(request):
+	form =ContactForm()
+	if request.method=='POST':
+		print(request.POST)
+	context = {'form':form}
+	return render(request,'resume.html', context)
 
-    some_variable_name=TemplateResponse(request,'resumesite.html',{})
-
-    return some_variable_name
+# some_variable_name=TemplateResponse(request,'resumesite.html',context)
+#  return some_variable_name
 		
 	# 	name = request.POST['name']
 	# 	email = request.POST['email']
