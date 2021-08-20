@@ -1,18 +1,25 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template.response import TemplateResponse
 # from .form import ContactForm
 
 
 
-def home(request):
-	form = ContactForm()
-	if request.method=='POST':
-		print(request.POST)
-	context = {'form':form}
+# def home(request):
+# 	form = ContactForm()
+# 	if request.method=='POST':
+# 		print(request.POST)
+# 	context = {'form':form}
 
 
-	return render(request,'home.html', context)
+# 	return render(request,'home.html', context)
 	# if request.method =='POST':
+
+def home(request):
+
+    some_variable_name=TemplateResponse(request,'resumesite.html',{})
+
+    return some_variable_name
 		
 	# 	name = request.POST['name']
 	# 	email = request.POST['email']
