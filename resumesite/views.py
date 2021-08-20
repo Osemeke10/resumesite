@@ -12,7 +12,7 @@ def home(request):
 	context = {'form':form}
 
 
-	return render(request,'home.html', context)
+	return render(request,'Home.html', context)
 	# if request.method =='POST':
 
 # def home(request):
@@ -82,7 +82,7 @@ def home(request):
 		print(name, email, phone,message)
 
 	
-	return render(request,'home.html',{})
+	return render(request,'Home.html',{})
 
 # def contact(request):
 # 	if request.method =='POST':
