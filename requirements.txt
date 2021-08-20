@@ -151,7 +151,7 @@ translate==3.6.1
 tweepy==3.10.0
 twilio==6.61.0
 Twisted==21.2.0
-twisted-iocpsupport==1.0.1
+# twisted-iocpsupport==1.0.1
 urllib3==1.26.6
 virtualenv==20.6.0
 virtualenv-clone==0.5.6
