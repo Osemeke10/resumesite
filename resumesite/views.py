@@ -17,7 +17,7 @@ from django.template.response import TemplateResponse
 
 def home(request):
 
-    some_variable_name=TemplateResponse(request,'home.html',{})
+    some_variable_name=TemplateResponse(request,'resumesite.html',{})
 
     return some_variable_name
 		
