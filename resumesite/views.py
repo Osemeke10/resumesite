@@ -5,22 +5,22 @@ from django.template.response import TemplateResponse
 
 
 
-# def home(request):
-# 	form = ContactForm()
-# 	if request.method=='POST':
-# 		print(request.POST)
-# 	context = {'form':form}
-
-
-# 	return render(request,'home.html', context)
-	# if request.method =='POST':
-
 def home(request):
-	form =ContactForm()
+	form = ContactForm()
 	if request.method=='POST':
 		print(request.POST)
 	context = {'form':form}
-	return render(request,'resume.html', context)
+
+
+	return render(request,'home.html', context)
+	# if request.method =='POST':
+
+# def home(request):
+# 	form =ContactForm()
+# 	if request.method=='POST':
+# 		print(request.POST)
+# 	context = {'form':form}
+# 	return render(request,'resume.html', context)
 
 # some_variable_name=TemplateResponse(request,'resumesite.html',context)
 #  return some_variable_name
