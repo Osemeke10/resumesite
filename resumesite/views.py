@@ -6,7 +6,7 @@ from django.template.response import TemplateResponse
 
 
 def home(request):
-	form = ContactForm()
+	# form = ContactForm()
 	if request.method=='POST':
 		print(request.POST)
 	context = {'form':form}
